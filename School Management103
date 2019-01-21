@@ -5,5 +5,5 @@ clrscr();
 void main()
 {
 }
-
+getch();
 }
