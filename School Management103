@@ -2,8 +2,32 @@
 #include<conio.h>
 int main()
 {
-
-printf("This is Attandence Module");
-
+int roll;
+char name;
+int present;
+int absent;
+int i;
+clrscr();
+printf("enter the data for the student:\n\n");
+for(i=0;i<2;i++)
+{
+printf("enter the roll no:");
+scanf("%d",&roll);
+printf("enter the name:");
+scanf("%d",&name);
+printf("enter the total days");
+printf("enter the present day:");
+scanf("%d",&present);
+printf("enter the absent day");
+scanf("%d",&absent);
+}
+printf("data for student:\n\n");
+for(i=0;i<2;i++)
+{
+printf("roll no is:%d",roll);
+printf("name is:%s",roll);
+printf("present day is:%d",present);
+printf("absent day is:%d",absent);
+}
 getch();
 }
