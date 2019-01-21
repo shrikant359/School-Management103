@@ -1,12 +1,11 @@
 #include<stdio.h>
 #include<conio.h>
 {
-clrscr();
-void main()
+int main()
 {
 int roll_no;
 printf("Enter roll number : ");
-  scanf("%d",&roll_no);
+scanf("%d",&roll_no);
 printf("This is Student Module");
 printf("\nStudent Roll Number : %d",roll_no);
 
