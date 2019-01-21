@@ -2,12 +2,8 @@
 #include<conio.h>
 int main()
 {
-printf("This is Faculty Module");
 
-int UserId ;
-printf("Enter the UserId : ");
-scanf("%d",&UserId);
+printf("This is Attandence Module");
 
-printf("\nStudent Roll Number : %d",UserId);
 getch();
 }
