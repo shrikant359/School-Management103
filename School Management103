@@ -8,6 +8,6 @@ int UserId ;
 printf("Enter the UserId : ");
 scanf("%d",&UserId);
 
-printf("\nStudent Roll Number : %d",UserId);
+printf("\nYour User IdIS : %d",UserId);
 getch();
 }
