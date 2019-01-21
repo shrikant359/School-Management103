@@ -1,13 +1,9 @@
 #include<stdio.h>
 #include<conio.h>
+int main()
 {
-clrscr();
-void main()
-{
-}
-void Attandance()
-{
-printf("This is Attandance Module");
-}
+
+printf("This is Attandence Module");
+
 getch();
 }
