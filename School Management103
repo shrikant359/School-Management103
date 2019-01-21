@@ -5,6 +5,9 @@ clrscr();
 void main()
 {
 }
-
+void Attandance()
+{
+printf("This is Attandance Module");
+}
 getch();
 }
