@@ -2,11 +2,12 @@
 #include<conio.h>
 int main()
 {
-int roll_no;
-printf("Enter roll number : ");
-scanf("%d",&roll_no);
-printf("This is Student Module");
-printf("\nStudent Roll Number : %d",roll_no);
+printf("This is Faculty Module");
 
+int UserId ;
+printf("Enter the UserId : ");
+scanf("%d",&UserId);
+
+printf("\nStudent Roll Number : %d",UserId);
 getch();
 }
