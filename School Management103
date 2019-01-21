@@ -1,13 +1,13 @@
 #include<stdio.h>
 #include<conio.h>
-{
-clrscr();
-void main()
-{
-}
-void Faculty()
+int main()
 {
 printf("This is Faculty Module");
-}
+
+int UserId ;
+printf("Enter the UserId : ");
+scanf("%d",&UserId);
+
+printf("\nStudent Roll Number : %d",UserId);
 getch();
 }
