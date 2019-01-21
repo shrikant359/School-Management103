@@ -5,6 +5,9 @@ clrscr();
 void main()
 {
 }
-
+void Student()
+{
+printf("This is Student Module");
+}
 getch();
 }
