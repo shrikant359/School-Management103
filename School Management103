@@ -2,12 +2,15 @@
 #include<conio.h>
 int main()
 {
-printf("This is Faculty Module");
+
+
+printf("This is Fees Module");
 
 int UserId ;
 printf("Enter the UserId : ");
 scanf("%d",&UserId);
 
 printf("\nYour User IdIS : %d",UserId);
+
 getch();
 }
